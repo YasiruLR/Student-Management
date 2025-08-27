@@ -1,6 +1,81 @@
-# Getting Started with Create React App
+# Student Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive React.js frontend application for managing students with role-based access for administrators and employees.
+
+## Features
+
+### 🎯 Core Functionality
+- **Student Management**: Add, edit, view, and delete student records
+- **Advanced Search**: Search students by name, email, course, or status
+- **Student History**: Track all activities and changes for each student
+- **Role-based Access**: Different permissions for Admin and Employee users
+
+### 📊 Reports & Analytics
+- **Overview Statistics**: Total students, active/inactive counts, average grades
+- **Grade Distribution**: Visual breakdown of student performance
+- **Course Enrollment**: Track enrollment across different courses
+- **Detailed Reports**: Comprehensive student listings with filters
+- **Export Functionality**: Export data to CSV format
+
+### 🖨️ Print Capabilities
+- Print individual student information
+- Print student history reports
+- Print comprehensive reports
+- Professional print layouts
+
+### 👥 User Roles
+
+#### Admin Users
+- Full access to all features
+- Can delete student records
+- Complete student management capabilities
+- Access to all reports and analytics
+
+#### Employee Users
+- Can view and edit student information
+- Can add new students
+- Cannot delete student records
+- Access to reports and history
+
+## Technology Stack
+
+- **Frontend**: React.js 18+
+- **Routing**: React Router DOM
+- **Icons**: React Icons (Font Awesome)
+- **Printing**: React-to-Print
+- **Styling**: Custom CSS with modern design
+- **State Management**: React Hooks (useState, useEffect)
+- **Data Storage**: Local Storage (for demo purposes)
+
+## Installation & Setup
+
+1. **Clone or Download** the project files
+
+2. **Install Dependencies**
+   ```bash
+   cd student-management-system
+   npm install
+   ```
+
+3. **Start Development Server**
+   ```bash
+   npm start
+   ```
+
+4. **Access Application**
+   - Open your browser and navigate to `http://localhost:3000`
+
+## Demo Credentials
+
+### Admin Account
+- **Username**: admin
+- **Password**: admin123
+- **Permissions**: Full access including delete operations
+
+### Employee Account
+- **Username**: employee
+- **Password**: emp123
+- **Permissions**: Add, edit, view (no delete access)
 
 ## Available Scripts
 
